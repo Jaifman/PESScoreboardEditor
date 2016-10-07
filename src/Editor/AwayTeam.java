@@ -1,5 +1,5 @@
 package Editor;
 
-public class AwayTeam {
-
+public class AwayTeam extends Team {
+	
 }

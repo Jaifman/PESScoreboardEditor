@@ -1,5 +1,5 @@
 package Editor;
 
-public class HomeTeam {
+public class HomeTeam extends Team{
 
 }
