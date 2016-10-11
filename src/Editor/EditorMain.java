@@ -8,7 +8,7 @@ public class EditorMain {
 		
 		EditorFrame myFrame = new EditorFrameBuilder().createEditorFrame();
 		
-		myFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		myFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);		
 
 	}
 

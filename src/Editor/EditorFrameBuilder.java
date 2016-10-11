@@ -8,7 +8,8 @@ public class EditorFrameBuilder {
 
 	 public EditorFrameBuilder() {
 		 
-	    }
+		 
+	 }
 
 	 public EditorFrame createEditorFrame() {
 	    	
