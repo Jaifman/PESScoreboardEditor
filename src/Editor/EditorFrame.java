@@ -31,13 +31,13 @@ public class EditorFrame extends JFrame{
 		fc.setCurrentDirectory(new File(System.getProperty("user.home")));
 		
 		//We give functionality to the button as a File Chooser
-		btnSelectFile.addActionListener(new ActionListener() {
+		btnSelectFile.addActionListener(new ActionListener(){
 			
-			public void actionPerformed(ActionEvent e) {
+			public void actionPerformed(ActionEvent e){
 				
 				int returnVal = fc.showOpenDialog(myPanel);
 				
-				if (returnVal == JFileChooser.APPROVE_OPTION) {
+				if (returnVal == JFileChooser.APPROVE_OPTION){
 					
 		            File file = fc.getSelectedFile();
 		            
@@ -45,7 +45,7 @@ public class EditorFrame extends JFrame{
 		            	
 		              //What to do with the file 
 		            	
-		            }catch (Exception ex) {
+		            }catch (Exception ex){
 		            	
 		              System.out.println("problem accessing file"+file.getAbsolutePath());
 		            
@@ -59,6 +59,8 @@ public class EditorFrame extends JFrame{
 				
 			}
 		
-		});		
+		});
+		
 	}
+	
 }
